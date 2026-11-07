@@ -1,0 +1,46 @@
+{
+  "name": "@metrum-ai/pi-intelligence-arbitrage",
+  "version": "2026.11.7",
+  "description": "Copyright (c) 2026 Metrum AI, Inc. Metrum AI Intelligence Arbitrage: frozen coding-model preference order for pi agents.",
+  "author": "Metrum AI, Inc.",
+  "license": "SEE LICENSE IN LICENSE",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "metrum-ai"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions/arbitrage.ts"
+    ],
+    "skills": [
+      "./skills"
+    ],
+    "changelogPath": ""
+  },
+  "scripts": {
+    "build": "python3 scripts/build_snapshot.py",
+    "check": "tsc --noEmit --strict --module nodenext --moduleResolution nodenext --target es2022 --skipLibCheck extensions/arbitrage.ts",
+    "test": "python3 scripts/test_snapshot.py"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "homepage": "https://www.metrum.ai",
+  "files": [
+    "extensions",
+    "skills",
+    "data",
+    "scripts",
+    "settings.snippet.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/metrum-ai/coding-intelligence-arbitrage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/metrum-ai/coding-intelligence-arbitrage/issues"
+  }
+}

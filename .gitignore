@@ -1,0 +1,7 @@
+# Copyright (c) 2026 Metrum AI, Inc. All rights reserved.
+node_modules/
+package-lock.json
+.pi/
+__pycache__/
+*.pyc
+*.tgz

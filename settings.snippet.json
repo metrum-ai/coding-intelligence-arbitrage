@@ -1,0 +1,20 @@
+{
+  "_comment": "Copyright (c) 2026 Metrum AI, Inc. All rights reserved. Metrum AI arbitrage order, snapshot 2026-11-07T22:24:47Z. Merge into ~/.pi/agent/settings.json.",
+  "defaultProvider": "openai",
+  "defaultModel": "openai/gpt-6.1-terra",
+  "enabledModels": [
+    "openai/gpt-6.1-terra",
+    "anthropic/claude-sonnet-5-5",
+    "openai/gpt-6.1-sol",
+    "openrouter/moonshotai/kimi-k3.1-pro:nitro",
+    "anthropic/claude-opus-5-5",
+    "openai/gpt-6-astra",
+    "anthropic/claude-fable-5-1",
+    "anthropic/claude-haiku-5-5",
+    "fireworks/accounts/fireworks/models/deepseek-v4p1-flash-1017",
+    "openrouter/tencent/hy4:nitro"
+  ],
+  "packages": [
+    "git:github.com/metrum-ai/coding-intelligence-arbitrage@v2026.11.7"
+  ]
+}
